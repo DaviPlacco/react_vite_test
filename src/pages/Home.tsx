@@ -1,4 +1,5 @@
 import {Btn} from '../components/Btn'
+import ProjectCarousel from '../components/Projects'
 
 export const Home = () => {
 
@@ -11,6 +12,7 @@ export const Home = () => {
             Test H2
         </h2>
         <Btn/>
+        <ProjectCarousel/>
     </section>
     )
 }
